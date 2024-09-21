@@ -42,6 +42,11 @@ def sjf_scheduling(jobs, start_time):
 # Streamlit App
 st.title('Appointment Scheduler Using SJF')
 
+# Display developer information
+st.sidebar.markdown("### Project Developers:")
+st.sidebar.markdown("1. **Sachin Yadav** - ID: 2341551")
+st.sidebar.markdown("2. **Hema C** - ID: 231530")
+
 # Input section for jobs
 st.subheader('Enter Job Details:')
 num_jobs = st.number_input('Number of Jobs', min_value=1, step=1)
@@ -71,4 +76,3 @@ if st.button('Generate Schedule'):
         st.dataframe(schedule_devs)
     else:
         st.error("Please enter job details to generate the schedule.")
-
