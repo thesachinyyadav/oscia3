@@ -9,7 +9,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://www.med-technews.com/downloads/8696/download/digital%20health.jpg?cb=62a58926fee9a6ec31d2f757983623d4&w=1000&h=');
+        background-image: url('https://t4.ftcdn.net/jpg/08/22/34/43/360_F_822344329_1cABbVqe5mRI7293hp5ltuipMRLxKKjt.jpg');
         background-size: cover;
     }
     </style>
